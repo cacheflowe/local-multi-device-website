@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "node ws-relay.mjs",
+    "server": "node ./server/ws-relay.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
