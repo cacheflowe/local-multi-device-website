@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablet App</title>
+  </head>
+  <body class="no-socket">
+    <custom-app debug>
+      <h1>TABLET</h1>
+      <nav>
+        <button data-key="click" data-value="TABLET_CLICK_1">Button 1</button>
+        <button data-key="click" data-value="TABLET_CLICK_2">Button 2</button>
+      </nav>
+      <p>
+        <label>WebSocket message:</label>
+        <pre id="result"></pre>
+      </p>
+    </custom-app>
+    <script type="module" src="./js/app-tablet.js"></script>
+  </body>
+</html>
